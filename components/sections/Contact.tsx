@@ -40,8 +40,8 @@ const contactItems = [
   {
     Icon: MailIcon,
     label: "Mail",
-    value: "kumarpratyush674@gmail.com",
-    href: "mailto:kumarpratyush674@gmail.com",
+    value: "kumarpratyush574@gmail.com",
+    href: "mailto:kumarpratyush574@gmail.com",
   },
   {
     Icon: XIcon,
@@ -70,7 +70,7 @@ export default function Contact() {
 
   const handleCopyEmail = (e: React.MouseEvent) => {
     e.preventDefault();
-    navigator.clipboard.writeText("kumarpratyush674@gmail.com");
+    navigator.clipboard.writeText("kumarpratyush574@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
